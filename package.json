@@ -1,39 +1,21 @@
 {
-  "name": "jquery-visibility",
-  "version": "1.0.12",
-  "description": "Page visibility shim for jQuery.",
-  "keywords": [
-    "page",
-    "visibility",
-    "visible",
-    "jquery-plugin",
-    "ecosystem:jquery"
-  ],
-  "main": "jquery-visibility.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified.\" && exit 1",
-    "start": "open demo.html"
+  "author": {
+    "name": "Mathias Bynens @mathias",
+    "url": "https://mathiasbynens.be"
   },
-  "homepage": "http://mths.be/visibility",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/mathiasbynens/jquery-visibility.git"
+  "bugs": {
+    "url": "https://github.com/TencentWSRD/jquery-visibility/issues"
   },
-  "author": "Mathias Bynens @mathias (https://mathiasbynens.be)",
   "contributors": [
     {
-      "name": "Jan Paepke",
       "email": "e-mail@janpaepke.de",
-      "homepage": "http://janpaepke.de"
+      "name": "Jan Paepke"
     }
   ],
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/mathiasbynens/jquery-visibility/issues"
-  },
   "dependencies": {
     "jquery": "*"
   },
+  "description": "Page visibility shim for jQuery.",
   "devDependencies": {
     "gulp": "^3.8.11",
     "gulp-concat-util": "^0.5.2",
@@ -48,5 +30,31 @@
     "jshint-stylish": "^1.0.1",
     "semver": "^4.3.3",
     "yargs": "^3.7.0"
-  }
+  },
+  "directories": {},
+  "homepage": "https://github.com/TencentWSRD/jquery-visibility",
+  "keywords": [
+    "page",
+    "visibility",
+    "visible",
+    "jquery-plugin",
+    "ecosystem:jquery"
+  ],
+  "license": "MIT",
+  "main": "jquery-visibility.js",
+  "maintainers": [
+    {
+      "email": "e-mail@janpaepke.de",
+      "name": "janpaepke"
+    }
+  ],
+  "name": "jquery-visibility-ci-dev",
+  "optionalDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TencentWSRD/jquery-visibility.git"
+  },
+  "scripts": {
+  },
+  "version": "1.0.12"
 }

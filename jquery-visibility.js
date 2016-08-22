@@ -1,10 +1,10 @@
 /*!
- * jquery-visibility v1.0.12
+ * jquery-visibility v1.0.11
  * Page visibility shim for jQuery.
  *
  * Project Website: http://mths.be/visibility
  * 
- * @version 1.0.12
+ * @version 1.0.11
  * @license MIT.
  * @author Mathias Bynens - @mathias
  * @author Jan Paepke - @janpaepke
@@ -13,16 +13,16 @@
     if (typeof define === 'function' && define.amd) {
         // AMD. Register as an anonymous module.
         define(['jquery'], function ($) {
-        	return factory(root, $);
+        	return factory($);
         });
     } else if (typeof exports === 'object') {
         // Node/CommonJS
-        module.exports = factory(root, require('jquery'));
+        module.exports = factory(require('jquery'));
     } else {
         // Browser globals
-        factory(root, jQuery);
+        factory(jQuery);
     }
-}(typeof window !== 'undefined' ? window : this, function(window, $, undefined) {
+}(this, function($, undefined) {
 	"use strict";
 
 	var
